@@ -82,6 +82,6 @@ if download_fileinfo():
         download_file(url, save_path)
 
     version_info()
-    logging.info(f"다운로드가 완료되었습니다. ws 폴더를 그대로 MINTPAD나 P35의 NAND에 위치해주세요. 사용자 정보를 유지하고 싶다면 ws 폴더 내의 user.wsk를 백업한 후 업데이트한 ws 폴더에 넣어주세요.")
+    logging.info(f"다운로드가 완료되었습니다. wm 폴더를 그대로 MINTPAD나 P35의 NAND에 위치해주세요. 사용자 정보를 유지하고 싶다면 wm 폴더 내의 user.wsk를 백업한 후 업데이트한 ws 폴더에 넣어주세요.")
 
     conn.close()
